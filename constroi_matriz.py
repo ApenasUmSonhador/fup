@@ -1,4 +1,3 @@
-matriz = []
 def constroi_matriz(n_linhas,n_colunas):
     matriz = []
     for i in range(int(n_linhas)):
@@ -11,5 +10,5 @@ def constroi_matriz(n_linhas,n_colunas):
 l = input("digite o  numero de linhas")
 c = input("digite o numero de colunas")
 
-constroi_matriz(l,c)
+matriz = constroi_matriz(l,c)
 print(matriz)
