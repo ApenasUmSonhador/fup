@@ -9,7 +9,7 @@ def constroi_matriz(n_linhas,n_colunas):
     return matriz
 
 l = input("digite o  numero de linhas")
-c = input("digite o numeor de colunas")
+c = input("digite o numero de colunas")
 
 constroi_matriz(l,c)
 print(matriz)
