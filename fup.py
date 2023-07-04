@@ -28,6 +28,9 @@ def sum_matriz(m1,m2):
     return matriz
 
 def mult_matrizes(m1,m2):
+    if len(m1[0]) != len(m2):
+        return "erro"
+
     matriz = []
     for i in range(len(m1)):
         linha = []
